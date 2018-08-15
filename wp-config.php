@@ -88,7 +88,7 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define("WP_SITEURL", "http://".$_SERVER['SERVER_NAME']."/treinamentos/composer_wordpress/wp");
-define("WP_HOME", "http://".$_SERVER['SERVER_NAME']);
-define("WP_CONTENT_DIR", dirname(__FILE__)."wp-content");
+define("WP_SITEURL", "http://".$_SERVER['SERVER_NAME']."/treinamentos/composer-wordpress/wp");
+define("WP_HOME", "http://".$_SERVER['SERVER_NAME']."/treinamentos/composer-wordpress");
+define("WP_CONTENT_DIR", dirname(__FILE__)."/treinamentos/composer-wordpress/wp-content");
 define("WP_CONTENT_URL", "http://".$_SERVER['SERVER_NAME']."/treinamentos/composer-wordpress/wp-content");
