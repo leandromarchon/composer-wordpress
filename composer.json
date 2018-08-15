@@ -1,6 +1,15 @@
 {
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
 	"require": {
-		"johnpbloch/wordpress": "4.7.*"
+		"johnpbloch/wordpress": "4.7.*",
+		"wpackagist-plugin/advanced-custom-fields": "*",
+		"wpackagist-plugin/posts-to-posts": "1.4.*",
+		"wpackagist-theme/hueman": "*"
 	},
 	"extra": {
 		"wordpress-install-dir": "wp"
